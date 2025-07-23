@@ -1,0 +1,88 @@
+# Compiled object files, shared libraries, executables
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.a
+*.lib
+*.dylib
+
+# CMake build directories
+/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Log files
+*.log
+
+# PlanViz output and cache
+PlanViz-main/__pycache__/
+PlanViz/__pycache__/
+PlanViz-main/*.pyc
+PlanViz/*.pyc
+
+# Ignore solution and build artifacts
+Solution/Data/
+Solution/Objects/
+Solution/Planner/Default/*.o
+Solution/Planner/Default/*.out
+Solution2/spdlog/
+
+# Ignore configs and test outputs
+# *.json
+# !configs/*.json
+# !example_problems/**/*.json
+
+test.json
+
+# Ignore scripts output
+scripts/*.w
+
+# Ignore images and gifs
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+
+# Ignore upgrade and install scripts
+upgrade_start_kit.sh
+RunInDocker.sh
+
+# Ignore user-specific files
+*.user
+*.sublime-workspace
+*.sublime-project
+
+# Ignore backup files
+*~ 

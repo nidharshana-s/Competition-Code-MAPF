@@ -1,0 +1,8 @@
+{
+    "mapFile": "maps/new_usecase.map",
+    "agentFile": "agents/new_usecase.agents",
+    "teamSize": 5,
+    "taskFile": "tasks/new_usecase.tasks",
+    "numTasksReveal": 1.5,
+    "version": "2024 LoRR"
+}
